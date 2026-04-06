@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #888; /* 薄い線 */
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+h1 {
+  margin: 10px 0 50px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  display: block;
+  width: 150px;
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s;
+  margin: 0 20px; /* 横の間隔 */
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+.box-img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #888; /* 薄い線 */
+  margin-bottom: 10px;
+  overflow: hidden;
+  border-radius: 0;
+}
+
+.box-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.box p {
+  margin: 10px 0 0;
+  font-weight: bold;
+}
+
+.content ul {
+  list-style: none;  /* 点を消す */
+  padding: 0;        /* 左の余白も消す */
+  margin: 0;         
+}
+
+.content li {
+  margin-bottom: 10px; /* 行間は適宜調整 */
+}
